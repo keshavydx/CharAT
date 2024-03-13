@@ -1,0 +1,19 @@
+class str
+{
+    public static void main()
+    {
+        int c=0;
+        //1`String a="Northcap University";
+        //String b = new String ("Hemant");
+        String str = "hello world";
+        for(int i=0;i<str.length()-1;i++)
+        {
+            if(str.charAt(i)=='o')
+            {
+                c++;
+            }
+        }
+        System.out.println("it occur "+c+" times");
+        //System.out.println(a.charAt(4)+" "+b.charAt(1));
+    }
+}
